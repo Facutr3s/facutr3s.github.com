@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    display: inline-block;
+}
+
+p{
+    width: 300px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+header{
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.presentacion{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.section{
+    width: 460px;
+    height: 200px;
+    margin: auto;
+    margin-left: 350px;
+    display: inline-block;
+}
+
+h3{
+    font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: -10px;
+}
+
+dt{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 36px;
+}
+
+dd{
+    margin: 0; /*margen cero al dd para que no haya un espaciado */
+}
+
+ul{
+    padding: 0; /*quitamos el espaciado que tenia del lado izquierdo*/
+}
+
+li{
+    margin-top: 12px; /*aplicamos margenes de arriba para la listas*/
+    list-style-type: none;/*sacamos el punto de los items con none */
+}
+
+img{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
+    top: 250px;
+    border-radius: 20px;
+}
